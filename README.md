@@ -8,7 +8,7 @@ The PLA used in this script uses weights in order to find the best threshold. Th
 
 $$ w(t+1) = w(t) + y(t)x(t) $$
 
-$$ y(t) \ne sign(w^t(t)x(t)) $$
+$$ y(t) \ne sign(w^T(t)x(t)) $$
 
 We then display the path to convergence by assigning a unique hex code colour to each line iteration, displaying it with matplotlib.
 
