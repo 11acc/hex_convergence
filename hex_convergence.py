@@ -86,12 +86,13 @@ def pla(dataset_size):
 
 def main():
     # random set seed for testing
-    #np.random.seed(3)
+    #np.random.seed(311)
     dataset_size = 250
 
     step_y, hex_codes, pla_y, f_y, biDatasetD, labels, num_iter = pla(dataset_size)
 
     # plotting
+    plt.figure(figsize=(12, 8))
     plt.ylim(-1, 1)
     plt.xlim(-1, 1)
 
@@ -99,7 +100,7 @@ def main():
 
     pla_x = np.array([-1.0, 1.0])
     plt.plot(pla_x, f_y, label="target", c="red", zorder=99)
-    plt.plot(pla_x, pla_y, label="final", c="blue", zorder=98)
+    plt.plot(pla_x, pla_y, label="final", c="#FF00FF", zorder=98)
     plt.plot(pla_x, pla_x, label="starting", c="black", zorder=97)
     plt.legend()
 
