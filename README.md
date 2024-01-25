@@ -1,4 +1,4 @@
-# hex_convergence
+## Visual linear convergence through PLA with relative line colours
 
 ![Static Badge](https://img.shields.io/badge/version-1.0-blue)
 
