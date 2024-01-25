@@ -25,7 +25,7 @@ Target line is coloured red, the starting line coloured black, and each line pro
 
 ```bash
 # Clone repository
-$ git clone https://github.com/11acc/2d_game.git
+$ git clone https://github.com/11acc/hex_convergence.git
 
 # If needed
 $ pip install numpy matplotlib
